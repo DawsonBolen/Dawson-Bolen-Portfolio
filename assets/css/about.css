@@ -1,0 +1,143 @@
+#aboutmehead {
+    background-color: #934276;
+    width: 100%;
+    min-height: 400px;
+}
+
+#aboutmetop {
+    width: 60%;
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aboutmerow2{
+    width: 500px;
+    color: white;
+}
+
+#skills-and-education {
+    display: flex;
+    width: 75%;
+    margin: 50px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills-card {
+    min-width: 40%;
+    padding: 10px;
+   
+}
+
+
+
+.skills-card h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #427693;
+    font-size: 25px;
+    font-weight: 400;
+    float: right;
+    padding-right: 63%;
+    margin-top: 10px;
+}
+
+#myskll {
+    padding-right: 66%;
+}
+
+.skills-card img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.skills-card p {
+    font-family: 'Oswald', sans-serif;
+    padding: 5px 0;
+    font-weight: 300;
+}
+
+
+
+/*the format has to be a lot different for both sections on smaller screen sizes*/
+@media screen and (max-width: 992px){
+    #aboutmetop {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    #aboutmerow2 {
+       margin-left: 20px;
+
+    }
+
+    .footer-bottom {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .skills-card h3 {
+        float: right;
+        padding-right: 30%;
+    }
+
+    #myskll {
+        padding-right: 45%;
+    }
+
+    #morskills {
+        padding-right: 40%;
+    }
+}
+
+
+/*the format has to be a lot different for both sections on smaller screen sizes*/
+@media screen and (max-width: 576px) {
+    #aboutmetop {
+        flex-direction: column;
+        height: fit-content;
+        padding: 10px;
+        width: 100%;
+    }
+
+    #grad-pic {
+        width: 200px;
+        height: 200px;
+    }
+    #aboutmerow2 {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+    #skills-and-education {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    
+    }
+
+    .skills-card h3 {
+        float: right;
+        padding-right: 50%;
+    }
+
+    #myskll {
+        padding-right: 60%;
+    }
+
+    #morskills {
+        padding-right: 52%;
+    }
+
+    .footer-bottom {
+        position: relative;
+    }
+
+
+}

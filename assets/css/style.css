@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+header{
+    width: 90%;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
+/*navigation bar styling */
+
+
+.navlinks {
+    list-style: none;   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navlinks li a {
+    display: block;
+    padding: 15px 50px;
+    color: #427693;
+
+}
+
+.navlinks li a:link {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.navlinks li a:hover {
+ background-color: #934276;
+ color: white;
+}
+
+.navlinks li a:active {
+    background-color: #93424d;
+    color: white;
+
+   }
+
+
+  
+
+
+
+
+   /* various button styles that I can reuse */
+
+.header-button {
+    background-color: #769342;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+.header-button:hover {
+    background-color: #934276;
+}
+
+.header-button:active {
+    background-color: #93424d;
+}
+
+
+
+.small-button {
+    padding: 7px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #769342;
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.small-button:hover{
+    background-color: #934276;
+}
+
+.small-button:active{
+    background-color: #93424d;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    background-color: #427693;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-contact{
+    display: flex;
+    padding: 20px 5px;
+    align-items: center;
+}
+
+.footer-contact p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width: 992px){
+    .navlinks li a {
+        padding: 20px; 
+    }
+}
+
+/*I tried to make a three bar hamburger menu and successfully designed it but realized you needed javascript to actually make it work. I hope to learn how to do so in the future */
+@media screen and (max-width: 576px) {
+    .header-button {
+        display: none;
+    }
+    .header-logo {
+        width: 75px;
+        height: 21px;
+    }
+
+    .navlinks li a {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+}

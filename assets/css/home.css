@@ -1,0 +1,79 @@
+#homehead {
+    background-image: url(images/Homelargeheaderpicture.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;  
+}
+
+
+#whatido {
+   background-color: #bddbe5; 
+   padding: 10px;
+}
+
+#whatido h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:600;
+    font-size: 50px;
+    color: #427693;
+    text-align: center;
+    padding: 150px 0 5px 0;
+    font-weight: 500;
+}
+
+.style-line-1 {
+    width: 300px;
+    height: 3px;
+    margin: 0 auto 50px auto;
+    background-color:#427693;
+    
+}
+
+#cards {
+    width: 85%;
+    margin: 10px auto 100px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    flex: 1 1 350px;
+
+}
+
+.card h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #934276;
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.card p {
+    font-family: 'Oswald', sans-serif;
+    padding: 20px 10px;
+    font-size: 12px;
+}
+
+
+/*the cards grow a border and box shadow when they are hovered over */
+
+.card:hover{
+    border: 3px solid #769342; 
+    box-shadow: 3px 2px 3px gray;
+}
+
+
+
