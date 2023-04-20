@@ -43,20 +43,25 @@
         padding-bottom: 100px;
     }
     
-
-    /* the form does not actually work. I am excited to learn how to make something like this in future lessons. This is just to show somewhat of how I would design my contact page in the future */
     #emailformbod {
-        background-color: #e6e6e6;
         padding: 100px 0 100px 0;
     }
-    
-    #email-form {
-        width: 60%;
+  
+    #email-form-body {
+        width: 75%;
         margin: 0 auto;
+        background-color: #e6e6e6;
         display: flex;
-        justify-content: space-between;
-        
-        
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .emailiconimg {
+        margin-right: 40px;
+    }
+
+    .containerc {
+        margin-left: 40px;
     }
     
     
@@ -69,10 +74,16 @@
         display: block;
         
     }
+
+   #name,
+   #email,
+   #subject {
+    height: 22px;
+   }
     
-    .contact-form button {
+    #butn {
         background-color: #427693;
-        padding: 15px 7px;
+        padding: 7px 4px;
         color: white;
         font-size: 18px;
         cursor: pointer;
@@ -80,6 +91,17 @@
         margin-top: 10px;
     }
     
+    #butn:hover {
+        background-color: #934276;
+    }
+    
+    #emailformheader {
+        font-size: 50px;
+        color:#427693;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
     
     
     input,textarea {
@@ -104,7 +126,7 @@
             padding: 300px 0;
         }
 
-        #email-form {
+        #email-form-body {
             width: 80%;
         }
 
@@ -133,12 +155,20 @@
         }
 
 
-        #email-form {
+        #email-form-body {
             flex-direction: column;
         }
 
         input,textarea {
-            width: 250px;
+            width: 300px;
+        }
+
+        .containerc {
+            margin-left: 0;
+        }
+
+        .emailiconimg {
+            margin-right: 0;
         }
 
         #emailformbod {

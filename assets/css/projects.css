@@ -1,5 +1,5 @@
 #projects-top {
-    background-image: url(images/Project-images/gdtopback.jpg);
+    background-image: url(../images/Project-images/gdtopback.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,7 +181,7 @@
 }
 
 #infographic {
-    background-image: url(images/Project-images/infographicweb.jpg);
+    background-image: url(../images/Project-images/infographicweb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 270px;
@@ -189,7 +189,7 @@
 }
 
 #wsuletter {
- background-image: url(images/Project-images/wsuletterweb.jpg);
+ background-image: url(../images/Project-images/wsuletterweb.jpg);
  background-repeat: no-repeat;
     background-size: cover;
     width: 270px;
@@ -197,7 +197,7 @@
 }
 
 #skiresortsite {
-    background-image: url(images/Project-images/p7\ tweeeeet.jpg);
+    background-image: url(../images/Project-images/p7\ tweeeeet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
@@ -206,7 +206,7 @@
 }
 
 #postercomic {
-background-image: url(images/Project-images/postercomicweb.jpg);
+background-image: url(../images/Project-images/postercomicweb.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 height: 350px;
@@ -214,7 +214,7 @@ width: 226px;
 }
 
 #usvsjapaninfographic {
- background-image: url(images/Project-images/America\ vs\ japan\ infographic.jpg);
+ background-image: url(../images/Project-images/America\ vs\ japan\ infographic.jpg);
  background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
@@ -248,25 +248,25 @@ width: 226px;
 
 /*since I want content to be able to appear on top, I used background image. */
 #web-comic {
-    background-image: url(images/Project-images/comicpic.jpg);
+    background-image: url(../images/Project-images/comicpic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #fall-cityrun {
-    background-image: url(images/Project-images/fallcityfunrunweb.jpg);
+    background-image: url(../images/Project-images/fallcityfunrunweb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #peaceofheart {
-    background-image: url(images/Project-images/cardweb.jpg);
+    background-image: url(../images/Project-images/cardweb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #albumcover {
-    background-image: url(images/Project-images/albumcoverweb.jpg);
+    background-image: url(../images/Project-images/albumcoverweb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -359,6 +359,8 @@ width: 226px;
 
 
 }
+
+
 
 
 @media screen and (max-width: 768px) {

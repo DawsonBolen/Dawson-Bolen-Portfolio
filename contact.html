@@ -10,9 +10,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=DM+Sans:wght@400;500&family=Flavors&family=Lato:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&family=Readex+Pro&family=Roboto+Slab&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/reset.css">
-<link rel="stylesheet" href="assets/style.css" />
-<link rel="stylesheet" href="assets/contact.css" />
+<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/contact.css" />
 </head>
 <body>
   <header>
@@ -64,20 +64,28 @@
      </div>
     </section>
 
+
+    
     <section id="emailformbod">
-          <div id="email-form">
-            <img id="email-icon-large" src="assets/images/emailformicon.png" width="268px" height="263px" alt="large email icon">
-            <form class="contact-form">
-                <label>Name</label>
-                <input type="text">
-                <label>Email</label>
-                <input type="email">
-                <label>Subject</label>
-                <input type="text">
-                <textarea></textarea>
-                <button>Submit</button>
+      <h2 id="emailformheader">Reach Out</h2>
+      <div id="email-form-body">
+        <div class="emailiconimg">
+            <img src="assets/images/emailformicon.png" width="300px" height="295px">
+        </div>
+        <div class="containerc">
+            <form action="mail.php" method="post">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="name">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="email: ex: myemail@email.com">
+                <label for="subject"></label>
+                <input type="text" name="subject" id="subject" placeholder="subject">
+                <label for="message"></label>
+                <textarea name="message" cols="30" rows="10" placeholder="Write Your Message Here"></textarea>
+                <input id="butn" type="submit" value="send">
             </form>
-          </div>
+        </div>
+      </div>
     </section>
 
   </main>
