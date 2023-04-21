@@ -21,13 +21,17 @@
         <ul class="navlinks">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="projects.html">Projects</a>
+                <ul>
+                  <li><a href="GraphicDesign.Html">Graphic Design</a></li>
+                  <li><a href="WebDev.html">Web/UX</a></li>
+                </ul>
+            </li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <a href="contact.html"><button class="header-button">Contact</button></a>
   </header>
-
   <main>
     <section id="contact-top">
         <h1>Get in Touch</h1>
@@ -70,20 +74,15 @@
       <h2 id="emailformheader">Reach Out</h2>
       <div id="email-form-body">
         <div class="emailiconimg">
-            <img src="assets/images/emailformicon.png" width="300px" height="295px">
+            <img src="assets/images/emailformicon.png" width="270px" height="266px">
         </div>
         <div class="containerc">
             <form action="https://formspree.io/f/xnqyldvy" method="post">
-
-
                 <label>
-                  Your email:
                   <input type="email" name="email" placeholder="email: myemail@email.com">
                 </label>
                 <label>
-                  Your message:
                   <textarea name="message" cols="30" rows="10" placeholder="write your message here"></textarea>
-
                   <button id="butn" type="submit">Send</button>
                 </label>
             </form>

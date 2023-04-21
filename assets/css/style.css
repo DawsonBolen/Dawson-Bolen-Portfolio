@@ -60,7 +60,23 @@ p {
    }
 
 
-  
+   .navlinks ul {
+    display: none;
+    position: absolute;
+   }
+
+   .navlinks ul li {
+    background-color: #934276;
+    display: block;
+    width: auto;
+    position: relative;
+}
+
+.navlinks li:hover > ul {
+    display: block;
+
+}
+
 
 
 
