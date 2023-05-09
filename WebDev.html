@@ -29,11 +29,31 @@
             </li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <div class="mobile-nav hide">
+          <ul class="mobile-nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="GraphicDesign.Html">Graphic Design</a></li>
+            <li><a href="WebDev.html">Web/UX</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="close-button">
+            <div class="cl1"></div>
+            <div class="cl2"></div>
+          </div>
+        </div>
     </nav>
     <a href="contact.html"><button class="header-button">Contact</button></a>
   </header>
 
   <main>
+   
     <div style="background-image: url(assets/images/realwebdevtop.jpg);"; id="wdtop">
         <h1>Web Devolopment and UX Design</h1>
    </div>
@@ -65,46 +85,115 @@
         </div>
     </div>
 
-
-<div id ="connectthe4">
-    <div class="wdr1">
-        <img id="ctc4im" src="assets/images/finalconnect4.jpg" width="350px" height="209px">
-    </div>
-    <div class="wdr2">
-        <h2>Connect Four</h2>
-        <div class="rect11"></div>
-        <div class="rect12"></div>
-        <p>I created a connect 4 game for a class using HTML, CSS, and JavaScript. Press the button to view the site and play the game.</p>
-        <a class="cta" href="https://dawson-bolen.com/connect4/index.html"><button>View Site</button></a>
-    </div>
-</div>
-
-<div id ="nami">
-    <div class="wdr1">
-        <img id="namiimg" src="assets/namireal.jpg" width="350" height="230px">
-    </div>
-    <div class="wdr2">
-        <h2>Nami</h2>
-        <div class="rect11"></div>
-        <div class="rect12"></div>
-        <p>I worked with a group to create a website for Nami North Central Idaho. I helped design it and was in charge of the technical side of the project as well. Unfortunately, they are no longer around so the site is no longer there. Their organization just merged with NAMI Idaho. It is unfortunate, however, this was a great learning experience to actually work for a real client.</p>
-    </div>
-</div>
-
-<div id="stvin">
-    <div id="stvinrow1">
-        <img src="assets/images/Homepage.png" width="145px" height="224px">
-        <img src="assets/images/Web 1920 – 1.png" width="155px" height="224px">
-    </div>
-    <div id="stvinrow2">
-        <h2>St Vincent De Paul</h2>
-        <div class="rect11"></div>
-        <div class="rect12"></div>
-        <p>I worked in a group to create a mockup website for St. Vincent de Paul. Their current website was super outdated and they wanted new ideas. We also conducted UX research before finalizing our designs. I was responsible for our creating personas and creating the partners page. Click the button to view the full adobe XD document.</p>
-        <a class="cta" href="https://xd.adobe.com/view/c792ce5e-a6d5-4bb0-86dd-2231d00e27f3-92c1/?fullscreen"><button>Click Here</button></a>
-    </div>
-
-</div>
+    <section id="sitesandapps">
+        <div class="web-project">
+            <div id="conect-4" class="web-proj">
+                <div class="show-more">
+                    <h5>Connect 4</h5>
+                    <button>Read More</button>
+                </div>
+            </div>
+          <div class="web-projects-content hide">
+            <h4>Connect Four</h4>
+            I created a connect 4 game for a class using HTML, CSS, and JavaScript. Press the button to view the site and play the game.</p>
+            <a href="https://dawson-bolen.com/connect4/index.html" target="_blank"><button>View Site</button></a>
+          </div>
+        </div>
+        <div class="web-project">
+            <div id="Nami" class="web-proj">
+                <div class="show-more">
+                    <h5>NAMI</h5>
+                    <button>Read More</button>
+                </div>
+            </div>
+          <div class="web-projects-content hide">
+            <h4>NAMI</h4>
+            <p>I worked with a group to create a website for Nami North Central Idaho. I helped design it and was in charge of the technical side of the project as well. Unfortunately, they are no longer around so the site is no longer there. Their organization just merged with NAMI Idaho. It is unfortunate, however, this was a great learning experience to actually work for a real client.</p>
+          </div>
+        </div>
+        <div class="web-project">
+            <div id="st-vin" class="web-proj">
+                <div class="show-more">
+                    <h5>St Vincent</h5>
+                    <button>Read More</button>
+                </div>
+            </div>
+          <div class="web-projects-content hide">
+            <h4>St Vincent</h4>
+            <p>I worked in a group to create a mockup website for St. Vincent de Paul. Their current website was super outdated and they wanted new ideas. We also conducted UX research before finalizing our designs. I was responsible for our creating personas and creating the partners page. Click the button to view the full adobe XD document.</p>
+            <a href="https://xd.adobe.com/view/c792ce5e-a6d5-4bb0-86dd-2231d00e27f3-92c1/?fullscreen" target="_blank"><button>View Site</button></a>
+          </div>
+        </div>
+        
+        <div class="web-project">
+            <div id="peaceof-heart" class="web-proj">
+                <div class="show-more">
+                    <h5>Peace of Heart</h5>
+                    <button>Read More</button>
+                </div>
+            </div>
+          <div class="web-projects-content hide">
+            <h4>Peace of Heart</h4>
+            <p></p>
+            <a href="https://www.peaceofheart-therapy.com/" target="_blank"><button>View Site</button></a>
+          </div>
+        </div>
+        <div class="web-project">
+            <div id="coding-quiz" class="web-proj image-border">
+                <div class="show-more">
+                    <h5>Coding Quiz</h5>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="web-projects-content hide">
+                <h4>Coding Quiz</h4>
+                <p>I created a coding quiz for a class. It's 5 questions long and is timed. It also uses local storage to display the past scores on the last page. I made this using html, css, and JavaScript.View the repo<a href="https://github.com/DawsonBolen/coding-quiz" target="_blank"> Here.</a></p>
+                <a href="https://dawsonbolen.github.io/coding-quiz/" target="_blank"><button>View Site</button></a>
+            </div>
+        </div>
+        <div class="web-project">
+            <div id="NBA-Highlights" class="web-proj">
+                <div class="show-more">
+                    <h5>NBA Highlights</h5>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="web-projects-content hide">
+            <h4>NBA Highlights</h4>
+            I created a connect 4 game for a class using HTML, CSS, and JavaScript. Press the button to view the site and play the game.</p>
+            <a href="https://rau1avi1a.github.io/NBA-Highlights/" target="_blank"><button>View Site</button></a>
+            <a href="https://github.com/rau1avi1a/NBA-Highlights" target="_blank">Repo</a>
+          </div>
+        </div>
+        <div class="web-project">
+            <div id="workday-scheduler" class="web-proj">
+                <div class="show-more">
+                    <h5>Workday Scheduler</h5>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="web-projects-content hide">
+            <h4>Workday Scheduler</h4>
+            I created a connect 4 game for a class using HTML, CSS, and JavaScript. Press the button to view the site and play the game.</p>
+            <a href="https://dawsonbolen.github.io/workday-scheduler/" target="_blank"><button>View Site</button></a>
+            <a href="https://github.com/DawsonBolen/workday-scheduler" target="_blank">Repo</a>
+          </div>
+        </div>
+        <div class="web-project">
+            <div id="portfolio" class="web-proj">
+                <div class="show-more">
+                    <h5>Portfolio</h5>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="web-projects-content hide">
+            <h4>Workday Scheduler</h4>
+           <p>I think it goes without saying that I made this porfolio site myself. I included this so you could see the repo if you wanted to view the code.</p>
+            <a href="https://github.com/DawsonBolen/Dawson-Bolen-Portfolio" target="_blank"><button>View Repo</button></a>
+          </div>
+        </div>
+    </section>
+ 
 
   </main>
 
@@ -122,5 +211,6 @@
       <p>Dawson Bolen</p>
     </div>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

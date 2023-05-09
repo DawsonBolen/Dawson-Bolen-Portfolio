@@ -149,6 +149,90 @@ footer{
     padding-left: 10px;
 }
 
+.hamburger-menu div {
+    background-color: gray;
+    width: 25px;
+    height: 4px;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+
+
+.mobile-nav {
+    background-color: #934276;
+    width: 100%;
+    padding: 5%;
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-nav-links li {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 1em;
+    display: block;
+    width: 60%;
+    text-align: center;
+}
+
+.mobile-nav-links li a {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+.mobile-nav-links li:hover {
+    background-color: white;
+    
+}
+
+.mobile-nav-links li:hover > a {
+    color: #427693;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    display: block;
+
+}
+
+.close-button:hover > div {
+    background-color: #427693;
+}
+
+.close-button div {
+    background-color: white;
+    border-radius: 10px;
+    width: 3px;
+    height: 20px;
+   
+}
+
+.cl1 {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.cl2 {
+    transform: translateY(-10px) rotate(-45deg);
+}
 
 @media screen and (max-width: 992px){
     .navlinks li a {
@@ -156,25 +240,49 @@ footer{
     }
 }
 
-/*I tried to make a three bar hamburger menu and successfully designed it but realized you needed javascript to actually make it work. I hope to learn how to do so in the future */
+
 @media screen and (max-width: 576px) {
     .header-button {
         display: none;
     }
+
     .header-logo {
-        width: 75px;
-        height: 21px;
+        width: 94px;
+        height: 26px;
     }
 
-    .navlinks li a {
-        font-size: 12px;
-        padding: 10px;
+    .navlinks  {
+       display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+
+    .hamburger-menu:hover > .bar {
+        background-color: #93424d;
+    }
+
+    .hamburger-menu:active > .bar {
+        background-color: #93424d;
     }
 
     footer {
         flex-direction: column;
         align-items: flex-start;
         padding: 0 20px;
+    }
+
+    header {
+        width: 100%;
+        padding: 5px;
+    }
+
+    nav {
+        width: 100%;
     }
 }
 
@@ -195,3 +303,8 @@ footer{
 .containerd p {
     font-size: 20px;
 }
+
+.hide {
+    display: none !important;
+  }
+  
