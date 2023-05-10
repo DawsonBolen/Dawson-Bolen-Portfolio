@@ -249,25 +249,25 @@ width: 226px;
 
 /*since I want content to be able to appear on top, I used background image. */
 #web-comic {
-    background-image: url(../images/Project-images/comicpic.jpg);
+    background-image: url(../images/project-images/comicpic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #fall-cityrun {
-    background-image: url(../images/Project-images/fallcityfunrunweb.jpg);
+    background-image: url(../images/project-images/fallcityfunrunweb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #peaceofheart {
-    background-image: url(../images/Project-images/cardweb.jpg);
+    background-image: url(../images/project-images/cardweb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #albumcover {
-    background-image: url(../images/Project-images/albumcoverweb.jpg);
+    background-image: url(../images/project-images/albumcoverweb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
