@@ -221,6 +221,12 @@ opacity: 1;
 }
 
 
+.web-projects-content {
+   display: flex;
+   width: 400px;
+}
+
+
 @media screen and (max-width: 576px) {
    #YAAANAtop {
       flex-direction: column;
@@ -228,8 +234,29 @@ opacity: 1;
    }
 
    #YAAANAbod {
-      flex-direction: column;
+      flex-direction: column-reverse;
       width: 95%;
+      align-items: center;
    }
+
+   #yaaana-pic-1 {
+      margin-top: 1.5em;
+      width: 390px; 
+      height: 213px;
+   }
+
+   #yaaana-logo {
+      display: none;
+   }
+
+   #yaana-pic-2 {
+      display: none;
+   }
+
+   #sitesandapps {
+      flex-direction: column;
+      align-items: center;
+   }
+
 
 }

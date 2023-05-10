@@ -101,7 +101,7 @@
         color:#427693;
         text-align: center;
         margin-top: 50px;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
     
     
@@ -136,7 +136,7 @@
 
     }
 
-    /*the contact cards look better vertically on a smaller screen so I changed the flex-direction to column */
+
 
     @media screen and (max-width: 576px) {
         #contactcards {
@@ -161,7 +161,7 @@
         }
 
         input,textarea {
-            width: 300px;
+            width: 400px;
         }
 
         .containerc {
@@ -176,7 +176,10 @@
             padding: 100px 0;
         }
 
-
+        #emailformheader {
+            margin-bottom: 0.25em;
+            margin-top: 1em;
+        }
 
 
     }

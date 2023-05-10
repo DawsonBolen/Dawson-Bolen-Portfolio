@@ -185,7 +185,10 @@ footer{
     display: block;
     width: 60%;
     text-align: center;
+   
 }
+
+
 
 .mobile-nav-links li a {
     color: white;
@@ -209,7 +212,7 @@ footer{
 .close-button {
     position: absolute;
     top: 20px;
-    right: 40px;
+    right: 45px;
     display: block;
 
 }
@@ -220,8 +223,7 @@ footer{
 
 .close-button div {
     background-color: white;
-    border-radius: 10px;
-    width: 3px;
+    width: 2px;
     height: 20px;
    
 }
