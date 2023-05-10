@@ -220,6 +220,12 @@ opacity: 1;
    background-size: cover;
 }
 
+#random-password {
+   background-image: url(../images/project-images/password-generator.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
 
 .web-projects-content {
    display: flex;
