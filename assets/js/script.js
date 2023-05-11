@@ -54,9 +54,32 @@ function showSlides(n) {
 }
 
 var showMoreButtons = document.querySelectorAll('.read-more');
-var projectDescriptions = document.querySelectorAll('.web-projects-content');
+var projectCards = document.querySelectorAll('.web-project');
+var sitesAndApps = document.querySelector('#sitesandapps');
+
+var showMore = document.querySelectorAll('.show-more');
+
+showMore.addEventListener("click", function(event){
+
+});
 
 
+
+
+
+
+showMoreButtons.forEach(function (i) {
+  i.addEventListener("click", function(event){
+    let projectDescriptions = document.querySelectorAll('.web-projects-content');
+    var element = event.target;
+   
+    let order = i.getAttribute('data-index');
+    let contentIndex = (order * 1) - 1;
+
+    projectDescriptions[contentIndex].classList.remove('hide');
+   
+  });
+});
 
 
 /*
@@ -83,4 +106,51 @@ function showDescription() {
   }
 
   projectDescriptions[y].classList.remove('hide');
+*/
+
+
+/*
+todoList.addEventListener("click", function(event) {
+  var element = event.target;
+
+  // Checks if element is a button
+  if (element.matches("button") === true) {
+    // Get its data-index value and remove the todo element from the list
+    var index = element.parentElement.getAttribute("data-index");
+    todos.splice(index, 1);
+
+    // Store updated todos in localStorage, re-render the list
+    storeTodos();
+    renderTodos();
+  }
+});
+
+*/
+
+/*
+sitesAndApps.forEach(function (i) {
+  i.addEventListener("click", function(event){
+    var element = event.target;
+    if (element.matches("button") === true) {
+      var currentContent = element.parentElement.children;
+      currentContent[1].classList.remove('hide');
+    }
+  });
+});
+
+
+*/
+
+/*
+
+projectCards.addEventListener("click", function(event){
+  var element = event.target;
+  let currentContent = element.parentElement;
+  let theContent =currentContent.parentElement.children;
+  if (element.matches("button") === true) {
+    
+    theContent[1].classList.remove('hide');
+  }
+})
+
 */
