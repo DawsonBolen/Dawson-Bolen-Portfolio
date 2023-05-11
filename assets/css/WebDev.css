@@ -74,8 +74,8 @@
  }
 
  .read-more {
-   background-color: #934276;
-   color: white;
+   background-color: white;
+   color: #427693;
    border: none;
    border-radius: 20px;
    padding: 0.25em 1em;
@@ -85,6 +85,7 @@
 
  .read-more:hover {
    background-color: #769342;
+   color: white;
  }
  
  #wdtop {
@@ -263,7 +264,6 @@ opacity: 1;
 
    #yaaana-pic-1 {
       width: 390px; 
-      height: 213px;
       margin: 1.5em 0 0 0;
       padding: 0;
       border: 2px solid #e6e6e6;
@@ -280,6 +280,9 @@ opacity: 1;
    #sitesandapps {
       flex-direction: column;
       align-items: center;
+      width: 95%;
+      margin: 0 auto;
+      padding: 0.25em;
    }
 
    #yna {
@@ -293,11 +296,6 @@ opacity: 1;
       display: none;
    }
    
-   #sitesandapps {
-      width: 90%;
-      margin: 0 auto;
-      padding: 0.25em;
-   }
    #yanbodrow1 {
       margin: 0;
    }
@@ -325,13 +323,29 @@ opacity: 1;
    width: 85%;
 }
 
+#wdtop h1 {
+   font-size: 35px;
+   width: 80%;
+   text-align: center;
+   margin: 0 auto;
+}
+
 }
 
 @media screen and (max-width: 400px) {
    #sitesandapps {
-      width: 95%;
+      width: 100%;
       margin: 0 auto;
       padding: 0.25em;
+   }
+
+   #yaaana-pic-1 {
+      width: 325px;
+   }
+
+   .web-proj {
+      width: 315px;
+      height: 207px;
    }
 
    
