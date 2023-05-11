@@ -183,3 +183,13 @@
 
 
     }
+
+    @media screen and (max-width: 400px) {
+        input,textarea {
+            width: 325px;
+        }
+
+        #butn {
+            width: 325px;
+        }
+    }

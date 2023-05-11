@@ -1,13 +1,11 @@
 #gd-top {
     background-image: url(../images/graphicdesignheader.jpg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 #gd-top h1 {
     color: white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 65px;
+    font-size: 4em;
     padding: 100px 0 100px 25px;
    
 }
@@ -131,6 +129,10 @@
     color: white;
     font-size: 35px;
     padding: 10px 0;
+}
+
+.work-button {
+  margin-bottom: 0.25em;
 }
 
 #lordofflies {
@@ -400,6 +402,10 @@ width: 226px;
 
 .drink-campaign-largepic {
     width: 95%;
+  }
+
+  #gd-top h1 {
+    font-size: 3em;
   }
 
 

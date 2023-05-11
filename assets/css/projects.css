@@ -273,6 +273,12 @@ padding-left: 30px;
     opacity: 1;
   }
 
+  @media screen and (max-width: 992px) {
+    .tab-img {
+        display: none;
+    }
+  }
+
 
   @media screen and (max-width: 576px) {
     .tbctent {
@@ -297,4 +303,11 @@ padding-left: 30px;
         width: 95%;
     }
 
+    .rect7 {
+        width: 225px;
+    }
+
+    .proj-titles {
+        font-size: 18px;
+    }
   }

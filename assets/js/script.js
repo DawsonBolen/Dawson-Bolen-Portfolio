@@ -53,8 +53,11 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
+var showMoreButtons = document.querySelectorAll('.read-more');
+var projectDescriptions = document.querySelectorAll('.web-projects-content');
 
-//for the show more buttons
+
+
 
 /*
 
