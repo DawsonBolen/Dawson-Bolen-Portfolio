@@ -283,6 +283,11 @@ width: 226px;
     
 }
 
+.poster-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .more-design-card h3 {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
@@ -410,6 +415,8 @@ width: 226px;
 
 
 }
+
+
 
 
 

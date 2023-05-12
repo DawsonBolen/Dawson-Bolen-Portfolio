@@ -164,9 +164,18 @@
 }
 
 
+/*
 .show-more {
-   display: none;
+  display: none;
 }
+*/
+
+
+details[open].dets {
+   max-height: 500px ;
+   width: 350px;
+}
+
 
 #yna {
    font-size: 16px;
@@ -178,6 +187,13 @@
    height: 230px;
    display: flex;
    align-items: flex-end;
+}
+
+.dets {
+   padding: 5px;
+   color: white;
+   background-color: #427693;
+   font-weight: 300;
 }
 
 .web-proj:hover > .show-more {
@@ -246,7 +262,9 @@ opacity: 1;
 
 .web-projects-content {
    display: flex;
-   width: 400px;
+   flex-direction: column;
+   margin-top: 3em;
+   
 }
 
 
