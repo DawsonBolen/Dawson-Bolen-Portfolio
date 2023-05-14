@@ -20,67 +20,59 @@ closebuttons.forEach(function(closeButton) {
 });
 
 
-//for slide show gallery on projects page
 
-let slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-
-var showMoreButtons = document.querySelectorAll('.read-more');
 var projectCards = document.querySelectorAll('.web-project');
 var sitesAndApps = document.querySelector('#sitesandapps');
 
-var showMore = document.querySelectorAll('.show-more');
 
-showMore.addEventListener("click", function(event){
+var showMoreButtons = document.querySelectorAll('.read-more');
+var content = document.querySelectorAll('.web-projects-content ');
 
-});
+// console.log("hello");
+// for (i of showMoreButtons) {
+//   i.addEventListener('click', function() {
+//     console.log(this);
+//     var content = this.closest(".web-proj").children[1];
+//     content.classList.remove('hide');
+//   });
+// }
+
+for (i = 0; i < showMoreButtons.length; i++) {
+  showMoreButtons[i].addEventListener("click", function(){
+    console.log(this);
+    var content = this.closest(".web-project").children[1];
+    content.classList.remove('hide');
+  });
+}
 
 
+/*
+for (i = 0; i < showMoreButtons.length; i++) {
+  showMoreButtons[i].addEventListener("click", function(){
+    console.log(this);
+    var content = this.closest(".web-proj").children[1];
+    content.classList.remove('hide');
+  });
+}
 
+/
 
-
-
+/*
 showMoreButtons.forEach(function (i) {
   i.addEventListener("click", function(event){
     let projectDescriptions = document.querySelectorAll('.web-projects-content');
     var element = event.target;
    
-    let order = i.getAttribute('data-index');
-    let contentIndex = (order * 1) - 1;
 
-    projectDescriptions[contentIndex].classList.remove('hide');
+
+    projectDescriptions.classList.remove('hide');
    
   });
 });
-
+*/
 
 /*
 
