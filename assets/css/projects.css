@@ -89,15 +89,7 @@ color: black;
 
 
 
-#projectgdsection {
-    width: 60%;
-    height: auto;
-    margin: 0 auto 50px auto;
-    display: flex;
-    justify-content: space-between;
-    background-color: #bddbe5;
-    padding: 65px;
-}
+
 
 .rect7 {
     background-color: #934276;
@@ -164,7 +156,7 @@ color: black;
 
 .projects2 {
 padding-top: 10px;
-padding-left: 30px;
+margin-left: 3rem;
 }
 
 
@@ -274,8 +266,77 @@ padding-left: 30px;
   }
 
   @media screen and (max-width: 992px) {
+
+
+
+
+    .tabs {
+        width: 90%;
+        margin: 1em auto;
+    }
+
+    #GD-tab {
+        width: 150px;
+        height: 150px;
+    }
+
+    #WD-tab {
+        width: 180px;
+        height: 138px;
+    }
+
+    #UX-tab {
+        width: 214px;
+        height: 138px;
+    }
+
+    .containera {
+        width: 90%;
+    }
+    .tbctent p {
+        width: 300px;
+
+    }
+
+    .rect7 {
+        width: 225px;
+    }
+
+    .rect8 {
+        width: 185px;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .tabs {
+        width: 95%;
+    }
+
+    .containera {
+        width: 100%;
+    }
+
+    .rect7 {
+        width: 200px;
+    }
+
+    .rect8 {
+        width: 170px;
+    }
+
+
+    .tbctent p {
+        width: 250px;
+        font-size: 14px;
+    }
+
     .tab-img {
-        display: none;
+        margin-right: 1em;
+    }
+
+    .tbctent {
+        padding: 20px;
     }
   }
 
@@ -286,10 +347,11 @@ padding-left: 30px;
         display: flex;
         justify-content: center;
 
+
     }
 
     .tabs {
-        width: 95%;
+        width: 100%;
         margin: 1em auto;
     }
 
@@ -303,7 +365,7 @@ padding-left: 30px;
     }
 
     .containera {
-        width: 95%;
+        width: 100%;
     }
 
     .rect7 {

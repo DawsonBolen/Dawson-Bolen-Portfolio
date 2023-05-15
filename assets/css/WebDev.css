@@ -301,18 +301,31 @@ opacity: 1;
 }
 .x-btn {
    margin-right: 1.5rem;
+   width: 25px;
+   height: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100%;
+   padding-right: 2px;
+   
 }
 
 .bar-1 {
-   transform: translateY(10px) rotate(45deg);
+   transform: translateX(2px)  rotate(45deg);
 }
 
 .bar-2 {
-   transform: translateY(-10px) rotate(-45deg);
+   transform:  rotate(-45deg);
+   
 }
 
 
 
+.x-btn:hover {
+   background-color: lightgrey;
+   opacity: 0.9;
+}
 .x-btn:hover > .bars {
    background-color: #93424d;
 }

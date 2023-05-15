@@ -74,7 +74,7 @@
               <a class="cta" href="GraphicDesign.Html"><button class="tab-button">View Work</button></a>
           </div>
           <div class="projects2">
-              <img class="tab-img" src="assets/images/gd-icon-2.png" width="200px" height="200px">
+              <img id="GD-tab" class="tab-img" src="assets/images/gd-icon-2.png" width="200px" height="200px">
           </div>
           </div>
       </div>
@@ -89,7 +89,7 @@
               <a class="cta" href="WebDev.html"><button class="tab-button">View Work</button></a>
           </div>
           <div class="projects2">
-              <img class="tab-img" src="assets/images/webdev-icon-2.png" width="240px" height="184px">
+              <img id="WD-tab" class="tab-img" src="assets/images/webdev-icon-2.png" width="240px" height="184px">
           </div>
           </div>  
       </div>
@@ -104,7 +104,7 @@
               <a class="cta" href="WebDev.html"><button class="tab-button">View Work</button></a>
           </div>
           <div class="projects2">
-              <img class="tab-img" src="assets/images/ux-icon-2.png" width="275px" height="184px">
+              <img id="UX-tab" class="tab-img" src="assets/images/ux-icon-2.png" width="285px" height="184px">
           </div>
           </div>
       </div>
@@ -121,7 +121,7 @@
               const tabsContainer = sideBar.parentElement;
               const tabNumber = button.dataset.forTab;
               const tabToActivate = tabsContainer.querySelector(`.tabs__content[data-tab="${tabNumber}"]`);
-              
+              console.log(tabToActivate);
               sideBar.querySelectorAll(".tabs__button").forEach(button => {
                   button.classList.remove("tabs__button--active");
               });

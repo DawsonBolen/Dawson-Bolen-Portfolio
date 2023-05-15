@@ -213,8 +213,18 @@ footer{
     position: absolute;
     top: 20px;
     right: 45px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+   padding-right: 2px;
+}
 
+.close-button:hover {
+    background-color: lightgrey;
+    opacity: 0.9;
 }
 
 .close-button:hover > div {
@@ -229,11 +239,11 @@ footer{
 }
 
 .cl1 {
-    transform: translateY(10px) rotate(45deg);
+    transform: translatex(2px) rotate(45deg);
 }
 
 .cl2 {
-    transform: translateY(-10px) rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
 @media screen and (max-width: 992px){
@@ -243,18 +253,14 @@ footer{
 }
 
 
-@media screen and (max-width: 576px) {
-    .header-button {
-        display: none;
-    }
-
-    .header-logo {
-        width: 94px;
-        height: 26px;
-    }
+@media screen and (max-width: 768px) {
 
     .navlinks  {
-       display: none;
+        display: none;
+     }
+
+     .header-button {
+        display: none;
     }
 
     .hamburger-menu {
@@ -272,6 +278,21 @@ footer{
         background-color: #93424d;
     }
 
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .header-button {
+        display: none;
+    }
+
+    .header-logo {
+        width: 94px;
+        height: 26px;
+    }
+
+   
     footer {
         flex-direction: column;
         align-items: flex-start;

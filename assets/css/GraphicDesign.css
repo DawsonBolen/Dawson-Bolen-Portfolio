@@ -20,7 +20,7 @@
 #drink-campaign-head h1 {
     color:#427693;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 65px;
+    font-size: 4em;
     font-weight: 500;
     padding-left: 20px ;
     margin-top: 8px;
@@ -30,17 +30,18 @@
     display: flex;
     width: 70%;
     margin: 20px auto;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 
 #front-can-head {
     width: 27.4%;
-    margin-right: 10px;
+    margin-right: 0.25rem;
 }
 
 #poster-head {
     width: 72.6%;
+    margin-left: 0.25rem;
 }
 
 
@@ -182,8 +183,25 @@ details {
   padding: 0.25em
 }
 
-details[open] {
-  max-width: 275px;
+
+#infographdets[open] {
+  width: 270px;
+}
+
+#wsultrdets[open] {
+  width: 270px;
+}
+
+#skiresortdets[open] {
+  width: 226px;
+}
+
+#postercomicdets[open] {
+  width: 226px;
+}
+
+#usvsjpndets[open] {
+  width: 226px;
 }
 
 .poster-card img {
@@ -251,6 +269,8 @@ width: 226px;
     flex-shrink: 1;
     margin: 10px 0;
 }
+
+
 
 .more-design-card img {
     width: 100%;
@@ -378,6 +398,26 @@ width: 226px;
         height: 387px; 
 }
 
+#infographdets[open] {
+  width: 392px;
+}
+
+#wsultrdets[open] {
+  width: 392px;
+}
+
+#skiresortdets[open] {
+  width: 250px;
+}
+
+#postercomicdets[open] {
+  width: 250px;
+}
+
+#usvsjpndets[open] {
+  width: 250px;
+}
+
 #more-designs{
     justify-content: center;
   }
@@ -423,6 +463,26 @@ width: 226px;
         height: 325px;
 }
 
+#infographdets[open] {
+  width: 325px;
+}
+
+#wsultrdets[open] {
+  width: 325px;
+}
+
+#skiresortdets[open] {
+  width: 210px;
+}
+
+#postercomicdets[open] {
+  width: 210px;
+}
+
+#usvsjpndets[open] {
+  width: 210px;
+}
+
 .drink-campaign-largepic {
     width: 95%;
   }
@@ -431,6 +491,13 @@ width: 226px;
     font-size: 3em;
   }
 
+  #drink-campaign-head h1 {
+    font-size: 3em;
+  }
+
+  #cups-icon {
+    width: 75px;
+  }
 
 }
 
@@ -464,6 +531,26 @@ width: 226px;
     height: 350px;
   }
 
+  #infographdets[open] {
+    width: 270px;
+  }
+  
+  #wsultrdets[open] {
+    width: 270px;
+  }
+  
+  #skiresortdets[open] {
+    width: 270px;
+  }
+  
+  #postercomicdets[open] {
+    width: 270px;
+  }
+  
+  #usvsjpndets[open] {
+    width: 270px;
+  }
+
   #more-designs{
     justify-content: center;
   }
@@ -491,11 +578,26 @@ width: 226px;
 }  
 
 .drink-campaign-largepic {
-    width: 95%;
+    width: 90%;
   }
+
 
 }
 
 @media screen and (max-width:400px) {
-  
+  .other-work-card {
+    width: 350px;
+  }
+
+.more-design-card {
+  width: 380px;
+}
+
+#gd-top h1 {
+  font-size: 2.5em;
+}
+
+
+
+
 }
