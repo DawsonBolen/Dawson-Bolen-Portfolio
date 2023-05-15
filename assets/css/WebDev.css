@@ -84,7 +84,7 @@
  }
 
  .read-more:hover {
-   background-color: #769342;
+   background-color: #93424d;
    color: white;
  }
  
@@ -195,7 +195,7 @@
 }
 
 .show-more:hover {
-background-color: #337382;
+background-color: #427693;
 opacity: 1;
 }
 
@@ -255,8 +255,6 @@ opacity: 1;
 
 
 .web-projects-content {
-   display: flex;
-   flex-direction: column;
    margin-bottom: 0.5em;
    width: 350px;
    background-color: #427693;
@@ -274,14 +272,49 @@ opacity: 1;
    background-color: white;
    color: #427693;
    border-radius: 25px;
-   padding: 0.25em 0.75em;
-   margin-top: 0.5em;
+   padding: 0.1em 1em;
+  margin-top: 1rem;
    font-family: 'Oswald', sans-serif;
+   font-size: 14px;
+  
 }
 
 .web-proj-btn:hover {
    background-color: #93424d;
    color: white;
+}
+
+.x-btn-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+   
+}
+
+
+.x-btn div {
+   background-color: white;
+   width: 2px;
+   height: 20px;
+  
+}
+.x-btn {
+   margin-right: 1.5rem;
+}
+
+.bar-1 {
+   transform: translateY(10px) rotate(45deg);
+}
+
+.bar-2 {
+   transform: translateY(-10px) rotate(-45deg);
+}
+
+
+
+.x-btn:hover > .bars {
+   background-color: #93424d;
 }
 
 
@@ -381,6 +414,10 @@ opacity: 1;
    .web-proj {
       width: 315px;
       height: 207px;
+   }
+
+   .web-projects-content {
+      width: 315px;
    }
 
    
