@@ -16,6 +16,10 @@
         padding: 10px 0 10px 0;
     }
     
+    .contact-top-links {
+        text-decoration: none;
+    }
+    
     .line-style-2 {
         width: 50%;
         height: 3px;
