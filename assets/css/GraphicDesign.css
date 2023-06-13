@@ -1,135 +1,136 @@
 #gd-top {
-    background-image: url(../images/graphicdesignheader.jpg);
-    text-align: center;
+  background-image: url(../images/graphicdesignheader.jpg);
+  text-align: center;
 }
+
 #gd-top h1 {
-    color: white;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 4em;
-    padding: 100px 0 100px 25px;
-   
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4em;
+  padding: 100px 0 100px 25px;
+
 }
 
 #drink-campaign-head {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
 }
 
 #drink-campaign-head h1 {
-    color:#427693;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 4em;
-    font-weight: 500;
-    padding-left: 20px ;
-    margin-top: 8px;
+  color: #427693;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4em;
+  font-weight: 500;
+  padding-left: 20px;
+  margin-top: 8px;
 }
 
 .drink-campaign-largepic {
-    display: flex;
-    width: 70%;
-    margin: 20px auto;
-    justify-content: center;
+  display: flex;
+  width: 70%;
+  margin: 20px auto;
+  justify-content: center;
 }
 
 
 #front-can-head {
-    width: 27.4%;
-    margin-right: 0.25rem;
+  width: 27.4%;
+  margin-right: 0.25rem;
 }
 
 #poster-head {
-    width: 72.6%;
-    margin-left: 0.25rem;
+  width: 72.6%;
+  margin-left: 0.25rem;
 }
 
 
 #drink-campaign-main {
-    display: grid;
-    width:fit-content;
-    margin: 20px auto 40px auto;
-    grid-template: repeat(4, minmax(50px, 200px)) / repeat(5, minmax(50px, 200px));
-    grid-gap: 10px;
-    background-color: #e6e6e6;
-    padding: 10px;
+  display: grid;
+  width: fit-content;
+  margin: 20px auto 40px auto;
+  grid-template: repeat(4, minmax(50px, 200px)) / repeat(5, minmax(50px, 200px));
+  grid-gap: 10px;
+  background-color: #e6e6e6;
+  padding: 10px;
 }
 
 #photo1 {
-    grid-column: 1 /5;
-    grid-row: 1/3;
+  grid-column: 1 /5;
+  grid-row: 1/3;
 
 }
 
 #photo5 {
-    grid-column: 4/6;
+  grid-column: 4/6;
 }
 
 
 /*i like how grid let you define an items size based on its column and row layout. you don't have to give the image a fixed size which is nice */
 
 #first-photo {
-    width: 100%;
-    aspect-ratio:  2/1;
-    object-fit: cover;
+  width: 100%;
+  aspect-ratio: 2/1;
+  object-fit: cover;
 }
 
 .twohundred {
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 
 #fourth-photo {
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 
 #fifth-photo {
-    width: 100%;
-    aspect-ratio:  2/1;
-    object-fit: cover;
+  width: 100%;
+  aspect-ratio: 2/1;
+  object-fit: cover;
 }
 
 
 #otherwork {
-    width: 90%;
-    margin: 20px auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .other-work-card {
-    border: 7px solid #427693;
-    max-width: 400px;
-    margin: 20px 0;
-    flex-grow: 1;
+  border: 7px solid #427693;
+  max-width: 400px;
+  margin: 20px 0;
+  flex-grow: 1;
 }
 
+
 .other-work-card img {
-    width: 100%;
-    aspect-ratio:  1/1;
-    object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 }
 
 .other-work-card-content p {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    padding: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  padding: 10px;
 }
 
 .other-work-card-title {
-    background-color: #427693;
-    text-align: center;
+  background-color: #427693;
+  text-align: center;
 }
 
 .other-work-card-title h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    font-size: 35px;
-    padding: 10px 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-size: 35px;
+  padding: 10px 0;
 }
 
 .work-button {
@@ -137,44 +138,44 @@
 }
 
 #lordofflies {
-    border: solid 1px black;
+  border: solid 1px black;
 }
 
 .work-button {
-    background-color: #769342;
-    width: 80px;
-    height: 25px;
-    border: none;
-    border-radius: 50px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: white;
-    margin-left: 5px;
+  background-color: #769342;
+  width: 80px;
+  height: 25px;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  margin-left: 5px;
 }
 
 .work-button:hover {
-    background-color:#934276;
+  background-color: #934276;
 }
 
 .work-button:active {
-    background-color: #93424d;
+  background-color: #93424d;
 }
 
 #more-work {
-    width: 90%;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #e6e6e6;
-    
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #e6e6e6;
+
 }
 
 #posters {
-    display: flex;
-   width: 100%;
-   margin: 0 auto;
-   justify-content: space-between;
-   flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 details {
@@ -205,111 +206,111 @@ details {
 }
 
 .poster-card img {
-    height: 100%;
-    aspect-ratio:  1/1;
-    object-fit: cover;
+  height: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 
 #infographic {
-    background-image: url(../images/project-images/infographicweb.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 270px;
-    height: 350px;
+  background-image: url(../images/project-images/infographicweb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 270px;
+  height: 350px;
 }
 
 #wsuletter {
- background-image: url(../images/project-images/wsuletterweb.jpg);
- background-repeat: no-repeat;
-    background-size: cover;
-    width: 270px;
-    height: 350px;
+  background-image: url(../images/project-images/wsuletterweb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 270px;
+  height: 350px;
 }
 
 #skiresortsite {
-    background-image: url(../images/project-images/p7\ tweeeeet.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
-    width: 226px;
+  background-image: url(../images/project-images/p7\ tweeeeet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 226px;
 
 }
 
 #postercomic {
-background-image: url(../images/project-images/postercomicweb.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-height: 350px;
-width: 226px;
+  background-image: url(../images/project-images/postercomicweb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 226px;
 }
 
 #usvsjapaninfographic {
- background-image: url(../images/project-images/America\ vs\ japan\ infographic.jpg);
- background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
-    width: 226px;
+  background-image: url(../images/project-images/America\ vs\ japan\ infographic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 226px;
 }
 
 
 #more-designs {
- display: flex;
- width: 100%;
- flex-flow: row wrap;
- justify-content: space-between;
- margin-top:50px;
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .more-design-card {
-    width: 600px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    flex-shrink: 1;
-    margin: 10px 0;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-shrink: 1;
+  margin: 10px 0;
 }
 
 
 
 .more-design-card img {
-    width: 100%;
-    aspect-ratio:  1/1;
-    object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 
 /*since I want content to be able to appear on top, I used background image. */
 #web-comic {
-    background-image: url(../images/project-images/comicpic.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../images/project-images/comicpic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#fall-cityrun {
-    background-image: url(../images/project-images/fallcityfunrunweb.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+#Lapell {
+  background-image: url(../images/project-images/Lappel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#peaceofheart {
-    background-image: url(../images/project-images/cardweb.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+#findyourhigh {
+  background-image: url(../images/project-images/High.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #albumcover {
-    background-image: url(../images/project-images/albumcoverweb.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../images/project-images/albumcoverweb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .more-design-card-content {
-    background-color: #427693;
-    opacity: 0.8;
-    width: 100%;
-    height: 30%;
-    padding: 10px;
-    
+  background-color: #427693;
+  opacity: 0.8;
+  width: 100%;
+  height: 30%;
+  padding: 10px;
+
 }
 
 .poster-container {
@@ -318,107 +319,107 @@ width: 226px;
 }
 
 .more-design-card h3 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    padding-left: 20px;
-    margin-top: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
 }
 
 .more-design-card p {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    color: white;
-    padding: 0 20px;
-    margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: white;
+  padding: 0 20px;
+  margin-top: 10px;
 }
 
 /*the content which is a description of the project only shows up when hovered over. */
 
 .more-design-card-content {
-    display: none;
+  display: none;
 }
 
-.more-design-card:hover > .more-design-card-content {
-    display: block;
+.more-design-card:hover>.more-design-card-content {
+  display: block;
 }
 
 .more-design-card-content:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 
 /* lots of media queries on this one. I really like flex-box but since it can only grow and shrink on the main axis that is declared, that makes it difficult to use for images that you want to keep the same proportion no matter what. */
 
-@media screen and (max-width:992px){
-    #drink-campaign-main {
-        grid-template: repeat(5, minmax(50px, 200px)) / repeat(4, minmax(50px, 200px));
-      }
+@media screen and (max-width:992px) {
+  #drink-campaign-main {
+    grid-template: repeat(5, minmax(50px, 200px)) / repeat(4, minmax(50px, 200px));
+  }
 
-      .more-design-card-content {
-        display: flex;
-        flex-direction: column;
-        height: 30%;
-        opacity: 0.7;
-      }
+  .more-design-card-content {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    opacity: 0.7;
+  }
 
-      #photo1 {
-        grid-area: 1 / 1 / 3 / 5;
-      }
+  #photo1 {
+    grid-area: 1 / 1 / 3 / 5;
+  }
 
-      #photo5 {
-        grid-area: 5 / 3 / 6 / 5;
-      }
+  #photo5 {
+    grid-area: 5 / 3 / 6 / 5;
+  }
 
-      .other-work-card {
-        width: 300px;
-      }
+  .other-work-card {
+    width: 300px;
+  }
 
-      #wsuletter {
-        width: 392px;
-        height: 508px;
-      }
+  #wsuletter {
+    width: 392px;
+    height: 508px;
+  }
 
-      #infographic {
-        width: 392px;
-        height: 508px;
-      }
+  #infographic {
+    width: 392px;
+    height: 508px;
+  }
 
-      #skiresortsite {
-        width: 250px;
-        height: 387px;
-      }
+  #skiresortsite {
+    width: 250px;
+    height: 387px;
+  }
 
-      #postercomic {
-        width: 250px;
-        height: 387px;
-      }
+  #postercomic {
+    width: 250px;
+    height: 387px;
+  }
 
-      #usvsjapaninfographic {
-        width: 250px;
-        height: 387px; 
-}
+  #usvsjapaninfographic {
+    width: 250px;
+    height: 387px;
+  }
 
-#infographdets[open] {
-  width: 392px;
-}
+  #infographdets[open] {
+    width: 392px;
+  }
 
-#wsultrdets[open] {
-  width: 392px;
-}
+  #wsultrdets[open] {
+    width: 392px;
+  }
 
-#skiresortdets[open] {
-  width: 250px;
-}
+  #skiresortdets[open] {
+    width: 250px;
+  }
 
-#postercomicdets[open] {
-  width: 250px;
-}
+  #postercomicdets[open] {
+    width: 250px;
+  }
 
-#usvsjpndets[open] {
-  width: 250px;
-}
+  #usvsjpndets[open] {
+    width: 250px;
+  }
 
-#more-designs{
+  #more-designs {
     justify-content: center;
   }
 
@@ -435,55 +436,55 @@ width: 226px;
 }
 
 @media screen and (max-width: 768px) {
-    #wsuletter {
-        width: 325px;
-        height: 421px;
-  
-      }
+  #wsuletter {
+    width: 325px;
+    height: 421px;
 
-      #infographic {
-        width: 325px;
-        height: 421px;
-  
-      }
+  }
+
+  #infographic {
+    width: 325px;
+    height: 421px;
+
+  }
 
 
-      #skiresortsite {
-        width: 210px;
-        height: 325px;
-      }
+  #skiresortsite {
+    width: 210px;
+    height: 325px;
+  }
 
-      #postercomic {
-        width: 210px;
-        height: 325px;
-      }
+  #postercomic {
+    width: 210px;
+    height: 325px;
+  }
 
-      #usvsjapaninfographic {
-        width: 210px;
-        height: 325px;
-}
+  #usvsjapaninfographic {
+    width: 210px;
+    height: 325px;
+  }
 
-#infographdets[open] {
-  width: 325px;
-}
+  #infographdets[open] {
+    width: 325px;
+  }
 
-#wsultrdets[open] {
-  width: 325px;
-}
+  #wsultrdets[open] {
+    width: 325px;
+  }
 
-#skiresortdets[open] {
-  width: 210px;
-}
+  #skiresortdets[open] {
+    width: 210px;
+  }
 
-#postercomicdets[open] {
-  width: 210px;
-}
+  #postercomicdets[open] {
+    width: 210px;
+  }
 
-#usvsjpndets[open] {
-  width: 210px;
-}
+  #usvsjpndets[open] {
+    width: 210px;
+  }
 
-.drink-campaign-largepic {
+  .drink-campaign-largepic {
     width: 95%;
   }
 
@@ -506,7 +507,7 @@ width: 226px;
 
 
 
-@media screen and (max-width:576px){
+@media screen and (max-width:576px) {
   #posters {
     flex-direction: column;
     justify-content: space-between;
@@ -534,24 +535,24 @@ width: 226px;
   #infographdets[open] {
     width: 270px;
   }
-  
+
   #wsultrdets[open] {
     width: 270px;
   }
-  
+
   #skiresortdets[open] {
     width: 270px;
   }
-  
+
   #postercomicdets[open] {
     width: 270px;
   }
-  
+
   #usvsjpndets[open] {
     width: 270px;
   }
 
-  #more-designs{
+  #more-designs {
     justify-content: center;
   }
 
@@ -565,19 +566,19 @@ width: 226px;
     grid-template: repeat(7, 150px) / 150px 150px;
   }
 
-#photo1 {
+  #photo1 {
     grid-area: 1 / 1 / 2 / 3;
-}
+  }
 
-#photo5 {
+  #photo5 {
     grid-area: 7 / 1 / 8 / 3;
-}
+  }
 
-.more-design-card-content {
+  .more-design-card-content {
     height: 50%;
-}  
+  }
 
-.drink-campaign-largepic {
+  .drink-campaign-largepic {
     width: 90%;
   }
 
@@ -589,13 +590,13 @@ width: 226px;
     width: 350px;
   }
 
-.more-design-card {
-  width: 380px;
-}
+  .more-design-card {
+    width: 380px;
+  }
 
-#gd-top h1 {
-  font-size: 2.5em;
-}
+  #gd-top h1 {
+    font-size: 2.5em;
+  }
 
 
 
