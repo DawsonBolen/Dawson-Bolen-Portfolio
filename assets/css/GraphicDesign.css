@@ -50,7 +50,7 @@
   display: grid;
   width: fit-content;
   margin: 20px auto 0 auto;
-  grid-template: repeat(4, minmax(50px, 200px)) / repeat(5, minmax(50px, 200px));
+  grid-template: repeat(4, minmax(50px, 225px)) / repeat(5, minmax(50px, 225px));
   grid-gap: 10px;
   background-color: #e6e6e6;
   padding: 10px;
@@ -754,7 +754,7 @@ details {
 
   #drink-campaign-main {
     display: grid;
-    grid-template: repeat(7, 150px) / 150px 150px;
+    grid-template: repeat(7, 190px) / 190px 190px;
   }
 
   #photo1 {
