@@ -805,4 +805,11 @@ details {
 
   }
 
+
+
+  #drink-campaign-main {
+    display: grid;
+    grid-template: repeat(7, 170px) / 170px 170px;
+  }
+
 }
