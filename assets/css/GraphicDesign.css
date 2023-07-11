@@ -537,6 +537,12 @@ details {
     grid-area: 1 / 1 / 3 / 5;
   }
 
+  #photo13 {
+    grid-column: 1 / -1;
+    grid-row: 5 / 7;
+    max-height: 400px;
+  }
+
   #photo5 {
     grid-area: 5 / 3 / 6 / 5;
   }
@@ -776,6 +782,12 @@ details {
 
   #photo5 {
     grid-area: 7 / 1 / 8 / 3;
+  }
+
+  #photo13 {
+    grid-column: 1 / -1;
+    grid-row: 7 / 8;
+    max-height: 380px;
   }
 
   .more-design-card-content {
