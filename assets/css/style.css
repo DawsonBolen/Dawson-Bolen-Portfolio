@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,7 +8,7 @@ body {
     width: 100%;
 }
 
-header{
+header {
     width: 90%;
     height: 90px;
     margin: 0 auto;
@@ -17,7 +17,12 @@ header{
     align-items: center;
 }
 
-h2, h2, h3, h4, h5, h6 {
+h2,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Oswald', sans-serif;
     color: white;
 }
@@ -30,7 +35,7 @@ p {
 
 
 .navlinks {
-    list-style: none;   
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
@@ -49,31 +54,32 @@ p {
 }
 
 .navlinks li a:hover {
- background-color: #934276;
- color: white;
+    background-color: #934276;
+    color: white;
 }
 
 .navlinks li a:active {
     background-color: #93424d;
     color: white;
 
-   }
+}
 
 
-   .navlinks ul {
+.navlinks ul {
     display: none;
     position: absolute;
-   }
+}
 
-   .navlinks ul li {
+.navlinks ul li {
     background-color: #934276;
     display: block;
     width: auto;
     position: relative;
 }
 
-.navlinks li:hover > ul {
+.navlinks li:hover>ul {
     display: block;
+    background-color: black;
 
 }
 
@@ -84,7 +90,7 @@ p {
 
 
 
-   /* various button styles that I can reuse */
+/* various button styles that I can reuse */
 
 .header-button {
     background-color: #769342;
@@ -119,11 +125,11 @@ p {
     color: white;
 }
 
-.small-button:hover{
+.small-button:hover {
     background-color: #934276;
 }
 
-.small-button:active{
+.small-button:active {
     background-color: #93424d;
 }
 
@@ -131,7 +137,7 @@ p {
 
 
 
-footer{
+footer {
     width: 100%;
     background-color: #427693;
     display: flex;
@@ -139,7 +145,7 @@ footer{
     align-items: center;
 }
 
-.footer-contact{
+.footer-contact {
     display: flex;
     padding: 20px 5px;
     align-items: center;
@@ -188,7 +194,7 @@ footer{
     display: block;
     width: 60%;
     text-align: center;
-   
+
 }
 
 
@@ -201,10 +207,10 @@ footer{
 
 .mobile-nav-links li:hover {
     background-color: white;
-    
+
 }
 
-.mobile-nav-links li:hover > a {
+.mobile-nav-links li:hover>a {
     color: #427693;
 }
 
@@ -222,7 +228,7 @@ footer{
     width: 25px;
     height: 25px;
     border-radius: 100%;
-   padding-right: 2px;
+    padding-right: 2px;
 }
 
 .close-button:hover {
@@ -230,7 +236,7 @@ footer{
     opacity: 0.9;
 }
 
-.close-button:hover > div {
+.close-button:hover>div {
     background-color: #427693;
 }
 
@@ -238,7 +244,7 @@ footer{
     background-color: white;
     width: 2px;
     height: 20px;
-   
+
 }
 
 .cl1 {
@@ -249,20 +255,20 @@ footer{
     transform: rotate(-45deg);
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
     .navlinks li a {
-        padding: 20px; 
+        padding: 20px;
     }
 }
 
 
 @media screen and (max-width: 768px) {
 
-    .navlinks  {
+    .navlinks {
         display: none;
-     }
+    }
 
-     .header-button {
+    .header-button {
         display: none;
     }
 
@@ -273,11 +279,11 @@ footer{
         right: 20px;
     }
 
-    .hamburger-menu:hover > .bar {
+    .hamburger-menu:hover>.bar {
         background-color: #93424d;
     }
 
-    .hamburger-menu:active > .bar {
+    .hamburger-menu:active>.bar {
         background-color: #93424d;
     }
 
@@ -295,7 +301,7 @@ footer{
         height: 26px;
     }
 
-   
+
     footer {
         flex-direction: column;
         align-items: flex-start;
@@ -332,5 +338,4 @@ footer{
 
 .hide {
     display: none !important;
-  }
-  
+}

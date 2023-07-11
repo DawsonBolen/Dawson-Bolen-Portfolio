@@ -77,7 +77,49 @@
 
 
 
-            <div id="drink-campaign-main">
+            <div id="campaign-slider">
+                <div class="carousel" data-carousel>
+                    <button class="carousel-button prev" data-carousel-button="prev">
+                        <div class="prev-button-style"></div>
+                    </button>
+                    <button class="carousel-button next" data-carousel-button="next">
+                        <div class="next-button-style"></div>
+                    </button>
+                    <ul data-slides>
+                        <li class="slide" data-active>
+                            <img src="assets/images/graphic-design-slider/1.jpg" height="500px" alt="First slide">
+                        </li>
+
+                        <li class="slide">
+                            <img src="assets/images/graphic-design-slider/second-slide.jpg" height="500px"
+                                alt="Second slide">
+                        </li>
+
+                        <li class="slide">
+                            <img src="assets/images/graphic-design-slider/third-slide.jpg" height="500px"
+                                alt="Third slide">
+                        </li>
+
+                        <li class="slide">
+                            <img src="assets/images/graphic-design-slider/fourth-slide.jpg" height="500px"
+                                alt="Fourth slide">
+                        </li>
+
+                        <li class="slide">
+                            <img src="assets/images/graphic-design-slider/5.jpg" height="500px" alt="Fifth slide">
+                        </li>
+
+                        <li class="slide">
+                            <img src="assets/images/graphic-design-slider/sixth-slide.jpg" height="500px"
+                                alt="Sixth slide">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div id="drink-campaign-main" class="hide">
                 <div class="drink-card" id="photo1">
                     <img id="first-photo" src="assets/images/project-images/1.jpg"
                         alt="design of large poster with can design and two polar bear cubs. One of the cubs is handing a pepsi to the other cub">
@@ -125,6 +167,16 @@
                 <div class="drink-card" id="photo5">
                     <img id="fifth-photo" src="assets/images/project-images/5.jpg"
                         alt="combo graphic of the two polar bear cubs">
+                </div>
+            </div>
+
+
+            <div id="gallery-or-slider">
+                <div id="slider-btn" class="active-galorslider">
+                    <img src="assets/images/slider-icon.png" height="50px">
+                </div>
+                <div id="galery-btn">
+                    <img src="assets/images/grid-icon.png" height="50px">
                 </div>
             </div>
         </section>
@@ -340,7 +392,9 @@
             </div>
         </a>
     </footer>
-    <script src="assets/js/script.js"></script>
+</body>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/drinkCampaignSlider.js"></script>
 </body>
 
 </html>
