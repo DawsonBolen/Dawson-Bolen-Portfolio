@@ -930,6 +930,17 @@ details {
     margin: 0 auto;
   }
 
+  #otherwork {
+    width: 99%;
+    margin: 0 auto;
+  }
+
+  #more-work {
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 
