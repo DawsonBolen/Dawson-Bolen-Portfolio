@@ -62,6 +62,7 @@
 
 #pepsi-earth {
   border: 2px solid #427693;
+  max-width: 400px;
 }
 
 #drink-camp {
@@ -640,7 +641,7 @@ details {
 
   #photo13 {
     grid-column: 1 / -1;
-    grid-row: 5 / 7;
+    grid-row: 6 / 8;
     max-height: 400px;
   }
 
@@ -1087,6 +1088,12 @@ details {
   }
 
 
+}
+
+@media screen and (max-width:450px) {
+  #pepsi-earth {
+    max-width: 380px;
+  }
 }
 
 @media screen and (max-width:400px) {
