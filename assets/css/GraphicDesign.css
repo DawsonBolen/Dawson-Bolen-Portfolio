@@ -628,7 +628,7 @@ details {
   }
 
   #drink-campaign-main {
-    grid-template: repeat(5, minmax(50px, 200px)) / repeat(4, minmax(50px, 200px));
+    grid-template: repeat(7, minmax(50px, 220px)) / repeat(4, minmax(50px, 220px));
   }
 
   .more-design-card-content {
@@ -945,6 +945,11 @@ details {
     flex-direction: column;
     justify-content: center;
   }
+
+
+  #drink-campaign-main {
+    grid-template: repeat(7, minmax(50px, 190px)) / repeat(4, minmax(50px, 190px));
+  }
 }
 
 
@@ -1090,11 +1095,7 @@ details {
 
 }
 
-@media screen and (max-width:450px) {
-  #pepsi-earth {
-    max-width: 380px;
-  }
-}
+
 
 @media screen and (max-width:400px) {
   .other-work-card {
