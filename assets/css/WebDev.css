@@ -349,16 +349,27 @@
    background-color: #93424d;
 }
 
+@media screen and (max-width: 992px) {
+   #YAAANAbod {
+      width: 95%;
+      margin: 0 auto 100px auto;
+      display: flex;
+   }
+
+   #YAAANAtop {
+      width: 95%;
+   }
+}
 
 @media screen and (max-width: 576px) {
    #YAAANAtop {
       flex-direction: column;
-      width: 95%;
+      width: 98%;
    }
 
    #YAAANAbod {
       flex-direction: column-reverse;
-      width: 95%;
+      width: 98%;
       align-items: center;
    }
 
